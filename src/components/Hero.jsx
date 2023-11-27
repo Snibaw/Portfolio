@@ -82,8 +82,8 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[40vw]
-            lg:ml-[55vw] md:ml-[56vw] xmd:ml-[56vw] 2xl:ml-[75vw]
+            className="absolute bottom-0 ml-[50vw]
+            lg:ml-[68vw] md:ml-[56vw] xmd:ml-[56vw] 2xl:ml-[75vw]
             sm:h-[55vh] md:h-[65vh] xl:h-[70vh]"
             src={shaq}
             alt="Romain"

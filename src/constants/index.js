@@ -156,8 +156,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'Nulo-Baby',
-    description: 'A 2D platformer created during a school project in collaboration with a friend. The aim of this project was to develop a game with our own physics engine that could be played with a controller on both Windows and the web.',
+    name: 'Save The Color',
+    description: 'I created this game with 7 students and we won the jury prize 🥳. It\'s a platformer-sandbox fps in which you can color the environment to give it effects and progress through the game. Personally, I spent a lot of time on the game\'s physics and the effects of the various blocks.',
     tags: [
       {
         name: 'react',
@@ -173,8 +173,8 @@ const projects = [
       },
     ],
     image: Nulo,
-    repo: 'https://github.com/Snibaw/PlatformerDeveloppement1',
-    demo: 'https://snibaw.itch.io/nulobaby',
+    repo: 'https://github.com/Snibaw/UniJam',
+    demo: 'https://szakon.itch.io/color',
   },
   {
     id: 'project-2',
