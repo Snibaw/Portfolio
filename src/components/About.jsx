@@ -38,18 +38,18 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[20px] max-w-3xl leading-[30px]"
       >
-        As a final-year engineering student specializing in{" "}
-        <span class="sm:text-battleGray font-extrabold">game development</span>, I am
-        currently seeking opportunities for a{" "}
+        As a final-year engineering student majoring in {" "}
+        <span class="sm:text-battleGray font-extrabold">computer science </span>
+         with a specialization in {" "}
+        <span class="sm:text-battleGray font-extrabold">video game development</span>, I am
+        currently seeking opportunities for a {" "}
         <span class="sm:text-battleGray font-extrabold">final-year internship</span> in
-        video game or computer development
+        programming.
         <br></br>
         <br></br>
-        I have been coding beyond my studies for several years and I have actively
-        participated in{" "}
+        I have been coding beyond my studies for several years and actively participating in{" "}
         <span class="sm:text-battleGray font-extrabold">coding events and game jams</span>
-        . For the past two years I have dedicated my free time to create video games,
-        which you can explore some on this website and more on my profile at{" "}
+        . Over the past two years, I have dedicated my free time to creating video games, some of which you can explore on this website and more on my profile at{" "}
         <a
           href="https://snibaw.itch.io"
           target="_blank"
@@ -63,11 +63,10 @@ const About = () => {
         <br></br>
         <br></br>
         I am eager to learn and would be delighted to work in a team where I can
-        develop my{" "}
+        develop both my{" "}
         <span class="sm:text-battleGray font-extrabold">technical and soft skills</span>
-        . I am sure that my motivation and zest for life will be a valuable asset to
-        your team, so{" "}
-        <span class="sm:text-battleGray font-extrabold">do not hesitate to contact me!</span>
+        . I am confident that my motivation and zest for life will be a valuable asset to your team, so{" "}
+        <span class="sm:text-battleGray font-extrabold">please do not hesitate to contact me!</span>
         <br></br>
         <br></br>
         Ideally, I am looking for an internship starting between February and April

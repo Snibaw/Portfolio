@@ -46,7 +46,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-            A Third year engineering student passionate about video game development.
+            A final-year engineering student with a passion for programming.
             </p>
           </div>
           <div
