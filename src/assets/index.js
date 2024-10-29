@@ -42,6 +42,7 @@ import caju from './company/caju.png';
 import sainte from './company/sainte.png';
 import inflexsys from './company/inflexsys.png';
 import tsp from './company/tsp.png';
+import fishing from './company/fishing.png';
 
 import Nulo from './projects/nulo.png';
 import Astro from './projects/astro.png';
@@ -95,5 +96,6 @@ export {
   caju,
   sainte,
   inflexsys,
+  fishing,
   tsp,
 };

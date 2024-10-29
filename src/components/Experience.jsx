@@ -56,10 +56,11 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+            Mes études et emplois
+          
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Experience.
+            Mon expérience
         </h2>
       </motion.div>
 
@@ -116,7 +117,7 @@ const Experience = () => {
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
               }}>
-              MY RESUME
+              Mon CV :
               <img
                 src={download}
                 alt="download"

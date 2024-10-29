@@ -31,25 +31,24 @@ const About = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>About me.</h2>
+        <h2 className={styles.sectionHeadText}>À propos de moi</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[20px] max-w-3xl leading-[30px]"
       >
-        As a final-year engineering student majoring in {" "}
-        <span class="sm:text-battleGray font-extrabold">computer science </span>
-         with a specialization in {" "}
-        <span class="sm:text-battleGray font-extrabold">video game development</span>, I am
-        currently seeking opportunities for a {" "}
-        <span class="sm:text-battleGray font-extrabold">final-year internship</span> in
-        programming.
+        En tant que jeune ingénieur diplomé en {" "}
+        <span class="sm:text-battleGray font-extrabold">informatique </span>
+         avec une spécialisation dans {" "}
+        <span class="sm:text-battleGray font-extrabold">le développement de jeux vidéo</span>
+        , je suis actuellement à la recherche d'un {" "}
+        <span class="sm:text-battleGray font-extrabold">premier emploi </span> 
+          dans ce domaine.
         <br></br>
-        <br></br>
-        I have been coding beyond my studies for several years and actively participating in{" "}
-        <span class="sm:text-battleGray font-extrabold">coding events and game jams</span>
-        . Over the past two years, I have dedicated my free time to creating video games, some of which you can explore on this website and more on my profile at{" "}
+        <br></br>Cela fait plusieurs années que je code en dehors de mes études et que je participe à des {" "}
+        <span class="sm:text-battleGray font-extrabold">concours de programmation et des game jams</span>
+          . Au cours des trois dernières années, j'ai consacré mon temps libre à la création de jeux vidéo, que vous pouvez découvrir sur mon profil{" "}
         <a
           href="https://snibaw.itch.io"
           target="_blank"
@@ -62,16 +61,12 @@ const About = () => {
         .{" "}
         <br></br>
         <br></br>
-        I am eager to learn and would be delighted to work in a team where I can
-        develop both my{" "}
-        <span class="sm:text-battleGray font-extrabold">technical and soft skills</span>
-        . I am confident that my motivation and zest for life will be a valuable asset to your team, so{" "}
-        <span class="sm:text-battleGray font-extrabold">please do not hesitate to contact me!</span>
+          Je suis très motivé pour apprendre et je serais ravie de travailler dans une équipe où je pourrais
+          développer à la fois mes compétences{" "}
+        <span class="sm:text-battleGray font-extrabold">techniques et mes softs skills</span>
+          . Je suis convaincu que ma motivation et ma joie de vivre seront un atout précieux pour votre équipe, donc{" "}
+        <span class="sm:text-battleGray font-extrabold"> n'hésitez pas à me contacter !</span>
         <br></br>
-        <br></br>
-        Ideally, I am looking for an internship starting between February and April
-        that would last for{" "}
-        <span class="sm:text-battleGray font-extrabold">24 weeks</span>.
       </motion.p>
 
       {/* <div className="mt-20 flex flex-wrap gap-10">

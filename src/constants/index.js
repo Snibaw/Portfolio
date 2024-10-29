@@ -26,17 +26,22 @@ import {
   caju,
   sainte,
   inflexsys,
+  fishing,
   tsp,
 } from '../assets';
 
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'À propos',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Mes projets',
+  },
+  {
+    id: "work",
+    title: "Mon expérience",
   },
   {
     id: 'contact',
@@ -124,32 +129,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'National competitive examination',
+    title: 'Classes préparatoires PCSI/PC',
     company_name: 'Lycee Camille Jullian',
     icon: caju,
     iconBg: 'white',
-    date: 'Sep 2019 - Aug 2021',
+    date: 'Sep 2019 - Août 2021',
   },
   {
-    title: 'Engineering student in computer science and microelectronics',
+    title: 'Étudiant ingénieur en informatique et microélectronique',
     company_name: 'Ecole des Mines de Saint Etienne',
     icon: sainte,
     iconBg: 'white',
-    date: 'Sep 2021 - Aug 2023',
+    date: 'Sep 2021 - Août 2023',
   },
   {
-    title: 'Web Developer Intern',
+    title: 'Stage en développement web',
     company_name: 'InfleXsys Merignac France',
     icon: inflexsys,
     iconBg: 'white',
-    date: 'Jan 2022 - Feb 2022',
+    date: 'Jan 2022 - Fev 2022',
   },
   {
-    title: 'Engineering student in Game Development',
-    company_name: 'Third year engineer at Telecom SudParis',
+    title: 'Étudiant ingénieur en développement de jeux vidéo',
+    company_name: 'Telecom SudParis en troisieme annee',
     icon: tsp,
     iconBg: 'white',
-    date: 'Sep 2023 - Present',
+    date: 'Sep 2023 - Fev 2024',
+  },
+  {
+    title: 'Stagiaire en développement de jeux vidéo',
+    company_name: 'Fishing Cactus',
+    icon: fishing,
+    iconBg: 'white',
+    date: 'Fev 2024 - Août 2024',
   },
 ];
 
@@ -157,7 +169,7 @@ const projects = [
   {
     id: 'project-1',
     name: 'Save The Color',
-    description: 'I created this game with 7 students and we won the jury prize 🥳. It\'s a platformer-sandbox fps in which you can color the environment to give it effects and progress through the game. Personally, I spent a lot of time on the game\'s physics and the effects of the various blocks.',
+    description: 'J\'ai créé ce jeu avec 7 étudiants et nous avons remporté le prix du jury 🥳. Il s\'agit d\'un jeu de plateforme dans lequel vous pouvez colorer l\'environnement pour lui donner des effets et progresser dans le jeu. J\'ai travaillé sur la physique du jeu et les effets des différents blocs.',
     tags: [
       {
         name: 'react',
@@ -180,7 +192,7 @@ const projects = [
     id: 'project-2',
     name: 'Astro-Shift',
     description:
-      'A 2D Endless Runner Game for mobile and windows. In this game I used Unity URP and focused on the visual aspect of the game.',
+      'Un Endless Runner en 2D pour mobile et Windows. Pour ce projet, j\'ai utilisé Unity URP et je me suis concentré sur l\'aspect visuel du jeu.',
     tags: [
       {
         name: 'react',
@@ -202,7 +214,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'Tank-Madness',
-    description: 'I tried to recreate WII Play\'s 2D tank game. I was able to create intelligent enemies for the game and add aiming aids in the mobile version.',
+    description: 'J\'ai essayé de recréer mon jeu préféré de la Wii, un jeu de tanks en 2D. J\'ai eu l\'occasion de créer des IA en tant qu\'ennemis et d\'ajouter des aides à la visée dans la version mobile.',
     tags: [
       {
         name: 'nextjs',
@@ -224,7 +236,7 @@ const projects = [
   {
     id: 'project-4',
     name: 'Realities',
-    description: `A 3D game made with a group of 3 for a 24h game jam (we won !). The theme was "Psychadelic" and I was in charge of the development on Unity.`,
+    description: `Un jeu 3D réalisé avec 2 autres étudiants pour une game jam de 24h (nous avons gagné !). Le thème était « Psychadelic » et j\'étais en charge du développement sur Unity.`,
     tags: [
       {
         name: 'nextjs',
@@ -247,7 +259,7 @@ const projects = [
     id: 'project-5',
     name: 'Paint War',
     description:
-      'A school project in a group of three involved creating an OpenGL-based 3D paint war game. We implemented techniques such as Ray-Marching to display players on the screen and simulate physics interactions between the players\' blobs.',
+      'Dans le cadre d\'un projet scolaire, nous avons crée en groupe de trois un jeu de bataille de peinture multijoueur en 3D basé sur OpenGL. Nous avons mis en œuvre des techniques telles que le Ray-Marching pour afficher les joueurs à l\'écran et simuler les interactions physiques entre les blobs des joueurs.',
     tags: [
       {
         name: 'nextjs',
