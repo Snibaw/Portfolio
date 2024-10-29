@@ -43,7 +43,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          alert('Merci, je vous recontacterai au plus vite.');
 
           setForm({
             name: '',
@@ -54,7 +54,7 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.log(error);
-          alert('Something went wrong. Please try again.');
+          alert('ERREUR, contactez r.perrier.pro@gmail.com.');
         }
       );
   };
